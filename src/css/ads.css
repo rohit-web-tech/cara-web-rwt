@@ -1,0 +1,90 @@
+#ads-container{
+    width : 100% ;
+    margin : 50px 0px;
+}
+.ads-container {
+    width : 90% ;
+    gap : 20px ;
+}
+.upper-container{
+    width : 100% ;
+    display : grid ;
+    grid-gap : 20px ;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.lower-container{
+    width : 100% ;
+    display : grid ;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap : 20px ;
+}
+.ad-card1{
+    color : white ;
+    gap : 10px ;
+    padding-left : 30px ;
+    height : 350px ;
+}
+.ad-card1.first{
+    background: url('../img/banner/b17.jpg') no-repeat center center/cover;
+}
+.ad-card1.second{
+    background: url('../img/banner/b10.jpg') no-repeat center center/cover;
+}
+.ad-card1 h2{
+    font-weight: 700;
+    font-size: 26px;
+}
+.ad-card1 .ads-btn{
+    font-weight: 700;
+    width : 120px ;
+    height : 37px ;
+    background-color: transparent;
+    color : white ;
+    border :2px solid white ;
+    font-size : 14px ;
+}
+.ad-card1:hover{
+    cursor: pointer;
+}
+.ad-card2:hover{
+    cursor: pointer;
+}
+.ad-card2:hover h5{
+    color : white;
+}
+.ad-card1:hover .ads-btn{
+    background-color: var(--green);
+    border : none ;
+}
+
+.ad-card2{
+    color : white ;
+    gap : 10px ;
+    padding-left : 30px ;
+    height : 250px ;
+}
+.ad-card2.third{
+    background: url('../img/banner/b7.jpg') no-repeat center center/cover;
+}
+.ad-card2.fourth{
+    background: url('../img/banner/b4.jpg') no-repeat center center/cover;
+}
+.ad-card2.fifth{
+    background: url('../img/banner/b18.jpg') no-repeat center center/cover;
+}
+.ad-card2 h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+.ad-card2 h5{
+    font-size: 13px;
+    color : rgb(125, 39, 39) ;
+}
+@media (max-width:450px) {
+    .upper-container{
+        grid-template-columns: repeat(auto-fit,minmax(225px,1fr));
+    }
+    .lower-container{
+        grid-template-columns: repeat(auto-fit,minmax(225px,1fr));
+    }
+}

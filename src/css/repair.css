@@ -1,0 +1,24 @@
+#repair-service{
+    margin : 50px 0px ;
+    width : 100% ;
+    height : 250px ;
+    background: url('../img/banner/b2.jpg') no-repeat center center/cover;
+}
+.repair-service{
+    width : 90% ;
+    color : white ;
+    gap : 20px ;
+    text-align: center;
+}
+.red{
+    color : rgb(165, 0, 0) ;
+}
+.explore-btn{
+    padding : 10px 20px;
+    font-weight: 700;
+}
+.explore-btn:hover{
+    background-color: var(--green); 
+    color : white ;
+    cursor : pointer ;
+}

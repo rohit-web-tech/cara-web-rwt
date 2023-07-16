@@ -1,0 +1,63 @@
+#footer{
+    width : 100% ;
+    padding : 40px 0px ;
+}
+.footer{
+    width : 90% ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 20px ;
+}
+.logo-footer{
+    margin-bottom: 25px;
+}
+.heading{
+    margin-bottom : 15px ;
+}
+.contact{
+    margin-bottom: 20px;
+}
+.brands-logo{
+    gap : 8px ;
+}
+.bold{
+    font-weight: bolder;
+}
+.footer p{
+    font-size: 13px;
+}
+.contact-details{
+    gap : 3px ;
+}
+.footer-user-options{
+    gap : 40px ;
+}
+.user-options{
+    gap : 10px ;
+}
+.install-app{
+    gap : 10px ;
+}
+.app-links {
+    gap : 5px ;
+}
+.install-app img{
+    border : 1px solid var(--green);
+    width : 50%;
+    height : 45px ;
+}
+.footer-contact,.install-app,.footer-user-options{
+    margin-bottom : 30px ;
+}
+#footer h4 a{
+    text-decoration: none;
+    color : var(--green) ;
+}
+@media (max-width : 350px){
+    .footer{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+    #footer h4{
+        font-size : 12px ;
+    }
+}

@@ -1,0 +1,48 @@
+#feature-container {
+    padding : 30px 0px ;
+    min-height : 300px ;
+    width : 100% ;
+    position : relative ;
+}
+.features-card-container{
+    width : 90% ;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap : 10px ;
+}
+.feature-card{
+    background-color: white ;
+    padding : 17px 10px ;
+    border : 2px solid var(--card-border);
+    gap : 20px ;
+    border-radius : 5px ;
+}
+.feature-card:hover{
+    box-shadow: 2px 2px 8px rgb(175, 175, 175);
+    cursor : pointer ;
+}
+.title{
+    padding : 4px 10px ;
+    font-size: 15px;
+}
+.pink{
+    background-color: rgba(255, 192, 203, 0.899);
+    color : var(--green) ;
+}
+.greeny{
+    background-color: rgba(144, 238, 144, 0.902);
+    color : var(--green) ;
+}
+.blue{
+    background-color: rgba(70, 70, 247, 0.391);
+    color :blue;
+}
+.purple{
+    background-color: rgba(75, 0, 128, 0.367);
+    color : rgba(75, 0, 128, 0.813) ;
+}
+.yellow{
+    background-color: rgba(135, 135, 2, 0.32);
+    color : var(--green) ;
+}

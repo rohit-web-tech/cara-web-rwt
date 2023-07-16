@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700&display=swap');
+*{
+  padding : 0 ;
+  margin : 0 ;
+  box-sizing : border-box ;
+  font-family : 'Spartan' , sans-serif ;
+  transition: all ease .2s;
+}
+*:root{
+  --green  : #088178 ;
+  --light-text : #5b5b5b ;
+  --normal-text : #1a1a1a ;
+  --dark-text : #000 ;
+  --card-border : rgb(217, 216, 216) ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color : rgb(248, 248, 248) ;
+  padding-top : 70px ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-box{
+  display : flex ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.justify-center{
+  justify-content: center ;
 }
-
-.App-link {
-  color: #61dafb;
+.align-center{ 
+  align-items : center ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-column{
+  flex-direction : column ;
 }
