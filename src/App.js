@@ -31,7 +31,7 @@ function App() {
       },2000);
     },0);
   }
-  // triggerLoader();
+  triggerLoader();
   const [currentPage, setCurrentPage] = useState("home-btn");
   const navBtn = document.querySelectorAll(".nav-option");
   navBtn.forEach((btn) => {
