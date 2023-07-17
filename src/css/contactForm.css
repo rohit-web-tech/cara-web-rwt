@@ -1,0 +1,78 @@
+#contact-us-form{
+    width : 100% ;
+    margin : 20px 0px;
+    position : relative ;
+}
+.contact-us-form{
+    width : 97% ;
+    padding : 50px ;
+    border : 2px solid var(--card-border);
+    justify-content: space-between;
+    align-items: start;
+    gap : 30px ;
+}
+.contact-us-form p{
+    font-size: 12px ;
+}
+
+.contact-form{
+    gap : 10px ;
+    width : 65% ;
+}
+.contact-form form{
+    gap : 20px ;
+}
+.contact-form form .contact-form-input-box{
+    width : 100% ;
+    height : 35px ;
+    padding-left: 8px ;
+    font-weight: 600;
+    border : none ;
+    border:2px solid var(--card-border);
+} 
+.contact-form form #user-message{
+    padding-top: 8px ;
+    height : 120px ;
+}
+.contact-form form #message-submission {
+    width : 110px ;
+    height : 35px ;
+    background-color: var(--green);
+    border : none ;
+    color : white ;
+    font-weight: bolder;
+}
+.contact-form form #message-submission:hover{
+    cursor : pointer ;
+    background-color : #033f3b;
+}
+.marketing-team{
+    gap : 30px ;
+}
+.exicutive{
+    gap : 8px ;
+}
+.exicutive-image{
+    height:45px ;
+    width : 55px ;
+    position: relative;
+}
+.exicutive-image img{
+    width : 100% ;
+    height : 100% ;
+}
+.exicutive-details{
+    gap : 5px ;
+}
+@media (max-width:685px) {
+    .contact-us-form{
+        flex-direction: column;
+        gap : 50px ;
+    }
+    .contact-form{
+        width : 100% ;
+    }
+    .contact-us-form{
+        padding : 50px 20px;
+    }
+}

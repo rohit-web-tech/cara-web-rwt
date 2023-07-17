@@ -25,6 +25,17 @@
     opacity: .8;
     background: url('../img/banner/b19.jpg') no-repeat center center/cover;
 }
+.top-banner.about::before{
+    content : "" ;
+    height : 100% ;
+    width : 100% ;
+    position: absolute;
+    top : 0; 
+    left  : 0;
+    z-index : -100 ;
+    opacity: .9;
+    background: url('../img/about/banner.png') no-repeat center center/cover;
+}
 .top-banner-content{
     width : 90% ;
     gap : 10px ;

@@ -11,7 +11,7 @@ import f6 from '../img/features/f6.png'
 export default function Features() {
   return (
     <div id="feature-container" className="flex-box justify-center align-center">
-      <div class="features-card-container">
+      <div className="features-card-container">
         <FeatureCard src={f1} title="Free Shipping"theme="pink" />
         <FeatureCard src={f2} title="Online Order"theme="greeny" />
         <FeatureCard src={f3} title="Save Money" theme="blue"/>

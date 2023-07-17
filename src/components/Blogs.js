@@ -4,13 +4,13 @@ import '../css/blogs.css'
 export default function Blogs(props) {
   return (
     <div className='blog-card flex-box justify-center align-center'>
-      <div class="image flex-box justify-center align-center">
+      <div className="image flex-box justify-center align-center">
         <img src={props.src} alt="blog image" />
-        <div class="rating-blog">
+        <div className="rating-blog">
           <h1>{props.date}</h1>
         </div>
       </div>
-      <div class="blog-content-2 flex-box justify-center flex-column">
+      <div className="blog-content-2 flex-box justify-center flex-column">
         <h3>{props.title}</h3>
         <p>Kickstarter man braid godard coloring book.Roclette waistcoot selfes ye wolf chartreuse hexagon irony godard...</p>
         <h5>--Continue Reading--</h5>

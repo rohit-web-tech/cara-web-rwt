@@ -3,6 +3,7 @@ import TopBanner from './TopBanner' ;
 import ShopContent from './ShopContent';
 
 export default function shop(props) {
+  props.triggerLoader();
   props.setCurrentPage("shop-btn");
   return (
     <>

@@ -7,6 +7,7 @@ import Ads from './Ads' ;
 import React from 'react' ;
 
 export default function Home(props) {
+  props.triggerLoader();
   props.setCurrentPage("home-btn");
   return (
     <>

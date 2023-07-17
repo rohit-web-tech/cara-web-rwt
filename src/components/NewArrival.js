@@ -13,20 +13,20 @@ import n8 from '../img/products/n8.jpg'
 export default function (props) {
   return (
     <div id="products-listing" className="flex-box justify-center align-center">
-      <div class="products-listing flex-box justify-center align-center flex-column">
-      <div class="heading flex-box justify-center align-center flex-column">
+      <div className="products-listing flex-box justify-center align-center flex-column">
+      <div className="heading flex-box justify-center align-center flex-column">
         <h1>{props.heading}</h1>
         <p>{props.subtitle}</p>
       </div>
-        <div class="product-card-container">
-    <Productcard src={n1} /> 
-    <Productcard src={n2} /> 
-    <Productcard src={n3} /> 
-    <Productcard src={n4} /> 
-    <Productcard src={n5} /> 
-    <Productcard src={n6} /> 
-    <Productcard src={n7} /> 
-    <Productcard src={n8} /> 
+        <div className="product-card-container">
+    <Productcard src={n1}/> 
+    <Productcard src={n2}/> 
+    <Productcard src={n3}/> 
+    <Productcard src={n4}/> 
+    <Productcard src={n5}/> 
+    <Productcard src={n6}/> 
+    <Productcard src={n7}/> 
+    <Productcard src={n8}/> 
         </div>
       </div>
     </div>

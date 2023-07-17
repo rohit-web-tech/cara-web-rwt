@@ -11,12 +11,12 @@ import AdCard2 from './AdCard2';
 export default function Ads() {
   return (
     <div id="ads-container" className='flex-box justify-center align-center'>
-        <div class="ads-container flex-box justify-center align-center flex-column">
-            <div class="upper-container">
+        <div className="ads-container flex-box justify-center align-center flex-column">
+            <div className="upper-container">
                 <AdCard1 type="first" category="crazy deals" title="buy 1 get 1 free" description="The best classic dress is on sale at cara" btnText="Learn More" btnTheme="white" /> 
                 <AdCard1 type="second" category="spring/summer" title="upcomming season" description="The best classic dress is on sale a cara" btnText="Collection" btnTheme="greenish" /> 
             </div>
-            <div class="lower-container">
+            <div className="lower-container">
                 <AdCard2 type="third" title="SEASONAL SALE" subtitle="Winter Collection"/>
                 <AdCard2 type="fourth" title="NEW FOOTWARE COLLECTION" subtitle="Spring/Summer-2023"/>
                 <AdCard2 type="fifth" title="T-Shirts" subtitle="Summer Fashion T-Shirts"/>

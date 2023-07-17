@@ -28,6 +28,10 @@
 .blog-content {
     gap : 20px ;
 }
+.blog-content h5:hover{
+    color : var(--green) ;
+    cursor : pointer ;
+}
 .rating-blog{
     position: absolute;
     top : 0;

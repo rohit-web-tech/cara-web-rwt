@@ -12,21 +12,21 @@ import f8 from '../img/products/f8.jpg'
 
 export default function (props) {
   return (
-    <div class="main-products-listing" className="flex-box justify-center align-center">
-      <div class="products-listing flex-box justify-center align-center flex-column">
-      <div class="heading flex-box justify-center align-center flex-column">
+    <div className="main-products-listing flex-box justify-center align-center">
+      <div className="products-listing flex-box justify-center align-center flex-column">
+      <div className="heading flex-box justify-center align-center flex-column">
         <h1>{props.heading}</h1>
         <p>{props.subtitle}</p>
       </div>
-        <div class="product-card-container">
-    <Productcard src={f1} /> 
-    <Productcard src={f2} /> 
-    <Productcard src={f3} /> 
-    <Productcard src={f4} /> 
-    <Productcard src={f5} /> 
-    <Productcard src={f6} /> 
-    <Productcard src={f7} /> 
-    <Productcard src={f8} /> 
+        <div className="product-card-container">
+    <Productcard src={f1}/> 
+    <Productcard src={f2}/> 
+    <Productcard src={f3}/> 
+    <Productcard src={f4}/> 
+    <Productcard src={f5}/> 
+    <Productcard src={f6}/> 
+    <Productcard src={f7}/> 
+    <Productcard src={f8}/> 
         </div>
       </div>
     </div>

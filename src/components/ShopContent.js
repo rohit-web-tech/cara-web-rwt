@@ -22,8 +22,8 @@ import n8 from '../img/products/n8.jpg'
 export default function ShopContent() {
     return (
         <div  className=" main-products-listing shop-products-container flex-box justify-center align-center">
-            <div class="products-listing flex-box justify-center align-center flex-column">
-                <div class="product-card-container">
+            <div className="products-listing flex-box justify-center align-center flex-column">
+                <div className="product-card-container">
                     <Productcard src={f1} />
                     <Productcard src={f2} />
                     <Productcard src={f3} />

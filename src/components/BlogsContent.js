@@ -10,7 +10,7 @@ import b5 from '../img/blog/b6.jpg' ;
 export default function BlogsContent() {
   return (
     <div id="blog-content" className='flex-box justify-center align-center'>
-        <div class="blog-content flex-box justify-center align-center flex-column">
+        <div className="blog-content flex-box justify-center align-center flex-column">
             <Blogs date="13/01" src={b1} title="The Cotton-Jersey Zip-Up Hoodie"/>
             <Blogs date="13/04" src={b2} title="How to Style a Quiff"/>
             <Blogs date="13/06" src={b3} title="Must-Have Skater Girl Items" />
