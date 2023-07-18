@@ -33,7 +33,7 @@ export default function CartItemsTable(props) {
                             </td>
                             <td className='image-item-column flex-box justify-center'>
                                 <div class="product-image">
-                                    <img src={product.img} alt="" loading='lazy' className='lazy-img'/>
+                                    <img src={product.img} alt=""  className='lazy-img'/>
                                 </div>
                             </td>
                             <td className='name-item-column'>

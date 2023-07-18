@@ -22,7 +22,7 @@ export default function ContactForm() {
                 <div className="marketing-team flex-box justify-center align-center flex-column">
                     <div className="exicutive flex-box justify-center">
                         <div className="exicutive-image">
-                            <img src={first} alt="exicutive" loading='lazy' className='lazy-img'/>
+                            <img src={first} alt="exicutive"  className='lazy-img'/>
                         </div>
                         <div className="exicutive-details flex-box justify-center flex-column">
                             <h4>John Doe</h4>
@@ -33,7 +33,7 @@ export default function ContactForm() {
                     </div>
                     <div className="exicutive flex-box justify-center">
                         <div className="exicutive-image">
-                            <img src={second} alt="exicutive" loading='lazy' className='lazy-img'/>
+                            <img src={second} alt="exicutive"  className='lazy-img'/>
                         </div>
                         <div className="exicutive-details flex-box justify-center flex-column">
                             <h4>William Smith</h4>
@@ -44,7 +44,7 @@ export default function ContactForm() {
                     </div>
                     <div className="exicutive flex-box justify-center">
                         <div className="exicutive-image">
-                            <img src={third} alt="exicutive" loading='lazy' className='lazy-img'/>
+                            <img src={third} alt="exicutive"  className='lazy-img'/>
                         </div>
                         <div className="exicutive-details flex-box justify-center flex-column">
                             <h4>Emma Stone</h4>

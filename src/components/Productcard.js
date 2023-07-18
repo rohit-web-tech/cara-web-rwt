@@ -5,7 +5,7 @@ import '../css/products.css';
 function Productcard(props) {
   return (
     <div className='product-card flex-box justify-center align-center flex-column'>
-      <img src={props.src} alt="this is a image" loading='lazy' className='lazy-img'/>
+      <img src={props.src} alt="this is a image"  className='lazy-img'/>
       <div className="card-text-content flex-box flex-column">
         <h6>Addidas</h6>
         <h5>Cartoon Astonout T-Shirts</h5>

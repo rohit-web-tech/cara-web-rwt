@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="footer">
             <div className="footer-contact">
                 <div className="logo-footer">
-                    <img src={logo} alt="" loading='lazy' className='lazy-img'/>
+                    <img src={logo} alt=""  className='lazy-img'/>
                 </div>
                 <div className="contact">
                     <h4 className="heading">Contact</h4>
@@ -58,11 +58,11 @@ export default function Footer() {
                     <div className="user-options flex-box flex-column">
                     <p className="details-footer">From App Store and Google Play</p>
                     <div className="app-links flex-box">
-                        <img src={appStore} alt="App Store" loading='lazy' className='lazy-img'/>
-                        <img src={googlePlay} alt="Google Play" loading='lazy' className='lazy-img'/>
+                        <img src={appStore} alt="App Store"  className='lazy-img'/>
+                        <img src={googlePlay} alt="Google Play"  className='lazy-img'/>
                     </div>
                     <p className="details-footer">Secured Payement Gateways</p>
-                    <img src={pay} alt="GateWays" loading='lazy' className='lazy-img'/>
+                    <img src={pay} alt="GateWays"  className='lazy-img'/>
                     </div>
             </div>
         </div>
