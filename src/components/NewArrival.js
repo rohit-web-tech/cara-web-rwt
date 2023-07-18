@@ -1,14 +1,14 @@
 import React from 'react'
 import '../css/products.css' ;
 import Productcard from './Productcard' ;
-import n1 from '../img/products/n1.jpg'
-import n2 from '../img/products/n2.jpg'
-import n3 from '../img/products/n3.jpg'
-import n4 from '../img/products/n4.jpg'
-import n5 from '../img/products/n5.jpg'
-import n6 from '../img/products/n6.jpg'
-import n7 from '../img/products/n7.jpg'
-import n8 from '../img/products/n8.jpg'
+import n1 from '../img/products/n1.webp'
+import n2 from '../img/products/n2.webp'
+import n3 from '../img/products/n3.webp'
+import n4 from '../img/products/n4.webp'
+import n5 from '../img/products/n5.webp'
+import n6 from '../img/products/n6.webp'
+import n7 from '../img/products/n7.webp'
+import n8 from '../img/products/n8.webp'
 
 export default function (props) {
   return (

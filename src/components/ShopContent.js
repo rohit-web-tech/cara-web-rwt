@@ -2,22 +2,22 @@ import React from 'react';
 import '../css/products.css';
 import '../css/shop.css';
 import Productcard from './Productcard';
-import f1 from '../img/products/f1.jpg'
-import f2 from '../img/products/f2.jpg'
-import f3 from '../img/products/f3.jpg'
-import f4 from '../img/products/f4.jpg'
-import f5 from '../img/products/f5.jpg'
-import f6 from '../img/products/f6.jpg'
-import f7 from '../img/products/f7.jpg'
-import f8 from '../img/products/f8.jpg'
-import n1 from '../img/products/n1.jpg'
-import n2 from '../img/products/n2.jpg'
-import n3 from '../img/products/n3.jpg'
-import n4 from '../img/products/n4.jpg'
-import n5 from '../img/products/n5.jpg'
-import n6 from '../img/products/n6.jpg'
-import n7 from '../img/products/n7.jpg'
-import n8 from '../img/products/n8.jpg'
+import f1 from '../img/products/f1.webp'
+import f2 from '../img/products/f2.webp'
+import f3 from '../img/products/f3.webp'
+import f4 from '../img/products/f4.webp'
+import f5 from '../img/products/f5.webp'
+import f6 from '../img/products/f6.webp'
+import f7 from '../img/products/f7.webp'
+import f8 from '../img/products/f8.webp'
+import n1 from '../img/products/n1.webp'
+import n2 from '../img/products/n2.webp'
+import n3 from '../img/products/n3.webp'
+import n4 from '../img/products/n4.webp'
+import n5 from '../img/products/n5.webp'
+import n6 from '../img/products/n6.webp'
+import n7 from '../img/products/n7.webp'
+import n8 from '../img/products/n8.webp'
 
 export default function ShopContent(props) {
     return (

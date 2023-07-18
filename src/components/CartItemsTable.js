@@ -1,10 +1,10 @@
 import React from 'react'
-import p1 from '../img/products/f1.jpg'
-import p2 from '../img/products/f2.jpg'
-import p3 from '../img/products/f3.jpg'
-import p4 from '../img/products/n1.jpg'
-import p5 from '../img/products/n2.jpg'
-import p6 from '../img/products/n3.jpg'
+import p1 from '../img/products/f1.webp'
+import p2 from '../img/products/f2.webp'
+import p3 from '../img/products/f3.webp'
+import p4 from '../img/products/n1.webp'
+import p5 from '../img/products/n2.webp'
+import p6 from '../img/products/n3.webp'
 import '../css/cart.css'
 
 export default function CartItemsTable(props) {

@@ -12,7 +12,7 @@
     left  : 0;
     z-index : -100 ;
     opacity: .9;
-    background: url('../img/banner/b1.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b1.webp') no-repeat center center/cover;
 }
 .top-banner.blog::before{
     content : "" ;
@@ -23,7 +23,7 @@
     left  : 0;
     z-index : -100 ;
     opacity: .8;
-    background: url('../img/banner/b19.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b19.webp') no-repeat center center/cover;
 }
 .top-banner.about::before{
     content : "" ;
@@ -34,7 +34,7 @@
     left  : 0;
     z-index : -100 ;
     opacity: .9;
-    background: url('../img/about/banner.png') no-repeat center center/cover;
+    background: url('../img/about/banner.webp') no-repeat center center/cover;
 }
 .top-banner-content{
     width : 90% ;

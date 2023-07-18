@@ -25,10 +25,10 @@
     height : 350px ;
 }
 .ad-card1.first{
-    background: url('../img/banner/b17.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b17.webp') no-repeat center center/cover;
 }
 .ad-card1.second{
-    background: url('../img/banner/b10.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b10.webp') no-repeat center center/cover;
 }
 .ad-card1 h2{
     font-weight: 700;
@@ -64,13 +64,13 @@
     height : 250px ;
 }
 .ad-card2.third{
-    background: url('../img/banner/b7.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b7.webp') no-repeat center center/cover;
 }
 .ad-card2.fourth{
-    background: url('../img/banner/b4.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b4.webp') no-repeat center center/cover;
 }
 .ad-card2.fifth{
-    background: url('../img/banner/b18.jpg') no-repeat center center/cover;
+    background: url('../img/banner/b18.webp') no-repeat center center/cover;
 }
 .ad-card2 h2{
     font-weight: 700;

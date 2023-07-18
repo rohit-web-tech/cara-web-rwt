@@ -1,11 +1,11 @@
 import React from 'react'
 import Blogs from './Blogs'
 import '../css/blogs.css'
-import b1 from '../img/blog/b1.jpg' ; 
-import b2 from '../img/blog/b2.jpg' ; 
-import b3 from '../img/blog/b3.jpg' ; 
-import b4 from '../img/blog/b4.jpg' ; 
-import b5 from '../img/blog/b6.jpg' ; 
+import b1 from '../img/blog/b1.webp' ; 
+import b2 from '../img/blog/b2.webp' ; 
+import b3 from '../img/blog/b3.webp' ; 
+import b4 from '../img/blog/b4.webp' ; 
+import b5 from '../img/blog/b6.webp' ; 
 
 export default function BlogsContent() {
   return (

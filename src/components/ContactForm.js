@@ -1,7 +1,7 @@
 import React from 'react'
-import first from '../img/people/1.png';
-import second from '../img/people/2.png';
-import third from '../img/people/3.png';
+import first from '../img/people/1.webp';
+import second from '../img/people/2.webp';
+import third from '../img/people/3.webp';
 import '../css/contactForm.css' ;
 
 export default function ContactForm() {

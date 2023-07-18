@@ -1,6 +1,6 @@
 import React from 'react' ;
 import '../css/elementsCard.css';
-import image from '../img/banner/b70.jpg';
+import image from '../img/banner/b70.webp';
 
 export default function () {
   return (

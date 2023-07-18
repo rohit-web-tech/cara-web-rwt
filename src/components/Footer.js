@@ -1,9 +1,9 @@
 import React from 'react' ;
 import '../css/footer.css' ;
-import logo from '../img/logo.png';
-import appStore from '../img/pay/app.jpg' ;
-import googlePlay from '../img/pay/play.jpg' ;
-import pay from '../img/pay/pay.png' ;
+import logo from '../img/logo.webp';
+import appStore from '../img/pay/app.webp' ;
+import googlePlay from '../img/pay/play.webp' ;
+import pay from '../img/pay/pay.webp' ;
 
 export default function Footer() {
   return (

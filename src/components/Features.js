@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/feature.css'
 import FeatureCard from './FeatureCard'
-import f1 from '../img/features/f2.png'
-import f2 from '../img/features/f1.png'
-import f3 from '../img/features/f3.png'
-import f4 from '../img/features/f4.png'
-import f5 from '../img/features/f5.png'
-import f6 from '../img/features/f6.png'
+import f1 from '../img/features/f2.webp'
+import f2 from '../img/features/f1.webp'
+import f3 from '../img/features/f3.webp'
+import f4 from '../img/features/f4.webp'
+import f5 from '../img/features/f5.webp'
+import f6 from '../img/features/f6.webp'
 
 export default function Features() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/elementsCard.css';
-import image from '../img/about/a6.jpg';
+import image from '../img/about/a6.webp';
 
 export default function About() {
     return (

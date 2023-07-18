@@ -1,10 +1,10 @@
 import React from 'react'
 import '../css/ads.css';
-// import first from '../img/banner/b17.jpg' ;
-// import second from '../img/banner/b10.jpg' ;
-// import third from '../img/banner/b7.jpg' ;
-// import fourth from '../img/banner/b4.jpg' ;
-// import fifth from '../img/banner/b18.jpg' ;
+// import first from '../img/banner/b17.webp' ;
+// import second from '../img/banner/b10.webp' ;
+// import third from '../img/banner/b7.webp' ;
+// import fourth from '../img/banner/b4.webp' ;
+// import fifth from '../img/banner/b18.webp' ;
 import AdCard1 from './AdCard1';
 import AdCard2 from './AdCard2';
 
