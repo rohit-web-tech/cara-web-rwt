@@ -19,14 +19,14 @@ export default function (props) {
         <p>{props.subtitle}</p>
       </div>
         <div className="product-card-container">
-    <Productcard src={n1}/> 
-    <Productcard src={n2}/> 
-    <Productcard src={n3}/> 
-    <Productcard src={n4}/> 
-    <Productcard src={n5}/> 
-    <Productcard src={n6}/> 
-    <Productcard src={n7}/> 
-    <Productcard src={n8}/> 
+    <Productcard src={n1} setCartItems={props.setCartItems}/> 
+    <Productcard src={n2} setCartItems={props.setCartItems}/> 
+    <Productcard src={n3} setCartItems={props.setCartItems}/> 
+    <Productcard src={n4} setCartItems={props.setCartItems}/> 
+    <Productcard src={n5} setCartItems={props.setCartItems}/> 
+    <Productcard src={n6} setCartItems={props.setCartItems}/> 
+    <Productcard src={n7} setCartItems={props.setCartItems}/> 
+    <Productcard src={n8} setCartItems={props.setCartItems}/> 
         </div>
       </div>
     </div>

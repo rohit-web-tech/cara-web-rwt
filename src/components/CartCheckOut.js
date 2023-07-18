@@ -1,7 +1,8 @@
 import React from 'react'
 import '../css/cart.css'
 
-export default function CartCheckOut() {
+export default function CartCheckOut(props) {
+    let price = props.cart.length*78;
   return (
     <div id="check-out" className='flex-box justify-center align-center'>
         <div class="check-out">
@@ -20,7 +21,7 @@ export default function CartCheckOut() {
                             <p>Cart SubTotal</p>
                         </td>
                         <td className='check-out-table-data'>
-                            <p>$468</p>
+                            <p>${price}</p>
                         </td>
                     </tr>
                     <tr className='check-out-table-row'>
@@ -36,7 +37,7 @@ export default function CartCheckOut() {
                             <p>Total</p>
                         </th>
                         <th className='check-out-table-data'>
-                            <p>$468</p>
+                            <p>${price}</p>
                         </th>
                     </tr>
                 </table>

@@ -13,9 +13,9 @@ export default function Home(props) {
     <>
     <MainBanner />
     <Features />
-    <Products heading="Featured Products" subtitle="Summer Collection New Mordern Design" />
+    <Products heading="Featured Products" subtitle="Summer Collection New Mordern Design" setCartItems={props.setCartItems}/>
     <Repairservice />
-    <NewArrival heading="New Arrivals" subtitle="Summer Collection New Mordern Design"/>
+    <NewArrival heading="New Arrivals" subtitle="Summer Collection New Mordern Design" setCartItems={props.setCartItems}/>
     <Ads/>
     </>
   )

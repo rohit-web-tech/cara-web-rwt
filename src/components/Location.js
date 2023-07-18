@@ -16,7 +16,7 @@ export default function () {
                     <p><i className="fa-solid fa-clock"></i> Monday To Saturday, 10:00AM-6:00PM</p>
                 </div>
                 <div className="image flex-box justify-center align-center">
-                    <img src={image} alt="blog image" />
+                    <img src={image} alt="blog image" loading='lazy' className='lazy-img'/>
                 </div>
             </div>
         </div>

@@ -19,27 +19,27 @@ import n6 from '../img/products/n6.jpg'
 import n7 from '../img/products/n7.jpg'
 import n8 from '../img/products/n8.jpg'
 
-export default function ShopContent() {
+export default function ShopContent(props) {
     return (
         <div  className=" main-products-listing shop-products-container flex-box justify-center align-center">
             <div className="products-listing flex-box justify-center align-center flex-column">
                 <div className="product-card-container">
-                    <Productcard src={f1} />
-                    <Productcard src={f2} />
-                    <Productcard src={f3} />
-                    <Productcard src={f4} />
-                    <Productcard src={f5} />
-                    <Productcard src={f6} />
-                    <Productcard src={f7} />
-                    <Productcard src={f8} />
-                    <Productcard src={n1} />
-                    <Productcard src={n2} />
-                    <Productcard src={n3} />
-                    <Productcard src={n4} />
-                    <Productcard src={n5} />
-                    <Productcard src={n6} />
-                    <Productcard src={n7} />
-                    <Productcard src={n8} />
+                    <Productcard src={f1} setCartItems={props.setCartItems}/>
+                    <Productcard src={f2} setCartItems={props.setCartItems}/>
+                    <Productcard src={f3} setCartItems={props.setCartItems}/>
+                    <Productcard src={f4} setCartItems={props.setCartItems}/>
+                    <Productcard src={f5} setCartItems={props.setCartItems}/>
+                    <Productcard src={f6} setCartItems={props.setCartItems}/>
+                    <Productcard src={f7} setCartItems={props.setCartItems}/>
+                    <Productcard src={f8} setCartItems={props.setCartItems}/>
+                    <Productcard src={n1} setCartItems={props.setCartItems}/>
+                    <Productcard src={n2} setCartItems={props.setCartItems}/>
+                    <Productcard src={n3} setCartItems={props.setCartItems}/>
+                    <Productcard src={n4} setCartItems={props.setCartItems}/>
+                    <Productcard src={n5} setCartItems={props.setCartItems}/>
+                    <Productcard src={n6} setCartItems={props.setCartItems}/>
+                    <Productcard src={n7} setCartItems={props.setCartItems}/>
+                    <Productcard src={n8} setCartItems={props.setCartItems}/>
                 </div>
             </div>
         </div>

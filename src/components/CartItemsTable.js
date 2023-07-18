@@ -7,8 +7,10 @@ import p5 from '../img/products/n2.jpg'
 import p6 from '../img/products/n3.jpg'
 import '../css/cart.css'
 
-export default function CartItemsTable() {
+export default function CartItemsTable(props) {
+    console.log(props.cart);
     return (
+        props.cart.length==0||props.cart==null||props.cart=='undefined'?<div style={{padding:"13px 0px",margin:"50px 0px",color:"#088178",textAlign:"center",fontWeight:"bolder",fontSize:"13px",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",borderTop:"2px solid var(--card-border)",borderBottom:"2px solid var(--card-border)"}}> <div class="exclamation" style={{background:"#088178",height:"32px",width:"32px",color:"white",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}><i class="fa-solid fa-exclamation" style={{fontSize:"25px"}}></i></div> <h1>Cart is Empty</h1></div> :
         <div id="cart-table" className='flex-box justify-center align-center'>
             <div class="cart-table">
                   <table className='flex-box justify-center flex-column'>
@@ -20,15 +22,18 @@ export default function CartItemsTable() {
                           <th className='quantity-item-column'>QUANTITY</th>
                           <th className='subtotal-item-column'>SUBTOTAL</th>
                       </tr>
-                      <tr className='table-row flex-box align-center'>
-                            <td className='remove-item-column'>
+                      {
+                        props.cart.map((product,index)=>{
+                            return (
+                                <tr className='table-row flex-box align-center'>
+                            <td className='remove-item-column' onClick={()=>props.removeItemFromCart(index)}>
                                 <div class="remove-icon">
                                     <i class="fa-solid fa-trash"></i>
                                 </div>
                             </td>
                             <td className='image-item-column flex-box justify-center'>
                                 <div class="product-image">
-                                    <img src={p4} alt="" />
+                                    <img src={product.img} alt="" loading='lazy' className='lazy-img'/>
                                 </div>
                             </td>
                             <td className='name-item-column'>
@@ -38,7 +43,7 @@ export default function CartItemsTable() {
                             </td>
                             <td className='price-item-column'>
                                 <div class="product-price">
-                                    <p>$78</p>
+                                    <p>{product.price}</p>
                                 </div>
                             </td>
                             <td className='quantity-item-column'>
@@ -48,106 +53,13 @@ export default function CartItemsTable() {
                             </td>
                             <td className='subtotal-item-column'>
                                 <div class="product-subtotal">
-                                    <p>$78</p>
+                                    <p>{product.price}</p>
                                 </div>
                             </td>
                         </tr>
-                      <tr className='table-row flex-box align-center'>
-                            <td className='remove-item-column'>
-                                <div class="remove-icon">
-                                    <i class="fa-solid fa-trash"></i>
-                                </div>
-                            </td>
-                            <td className='image-item-column flex-box justify-center'>
-                                <div class="product-image">
-                                    <img src={p1} alt="" />
-                                </div>
-                            </td>
-                            <td className='name-item-column'>
-                                <div class="product-name">
-                                    <p>Cartoon Astronuat T-Shirt</p>
-                                </div>
-                            </td>
-                            <td className='price-item-column'>
-                                <div class="product-price">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                            <td className='quantity-item-column'>
-                                <div class="product-quantity">
-                                    <input type="number" id="product-quantity" value="1"/>
-                                </div>
-                            </td>
-                            <td className='subtotal-item-column'>
-                                <div class="product-subtotal">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                        </tr>
-                      <tr className='table-row flex-box align-center'>
-                            <td className='remove-item-column'>
-                                <div class="remove-icon">
-                                    <i class="fa-solid fa-trash"></i>
-                                </div>
-                            </td>
-                            <td className='image-item-column flex-box justify-center'>
-                                <div class="product-image">
-                                    <img src={p2} alt="" />
-                                </div>
-                            </td>
-                            <td className='name-item-column'>
-                                <div class="product-name">
-                                    <p>Cartoon Astronuat T-Shirt</p>
-                                </div>
-                            </td>
-                            <td className='price-item-column'>
-                                <div class="product-price">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                            <td className='quantity-item-column'>
-                                <div class="product-quantity">
-                                    <input type="number" id="product-quantity" value="1"/>
-                                </div>
-                            </td>
-                            <td className='subtotal-item-column'>
-                                <div class="product-subtotal">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                        </tr>
-                      <tr className='table-row flex-box align-center'>
-                            <td className='remove-item-column'>
-                                <div class="remove-icon">
-                                    <i class="fa-solid fa-trash"></i>
-                                </div>
-                            </td>
-                            <td className='image-item-column flex-box justify-center'>
-                                <div class="product-image">
-                                    <img src={p3} alt="" />
-                                </div>
-                            </td>
-                            <td className='name-item-column'>
-                                <div class="product-name">
-                                    <p>Cartoon Astronuat T-Shirt</p>
-                                </div>
-                            </td>
-                            <td className='price-item-column'>
-                                <div class="product-price">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                            <td className='quantity-item-column'>
-                                <div class="product-quantity">
-                                    <input type="number" id="product-quantity" value="1"/>
-                                </div>
-                            </td>
-                            <td className='subtotal-item-column'>
-                                <div class="product-subtotal">
-                                    <p>$78</p>
-                                </div>
-                            </td>
-                        </tr>
+                            )
+                        })
+                      }
                   </table>
               </div>
         </div>

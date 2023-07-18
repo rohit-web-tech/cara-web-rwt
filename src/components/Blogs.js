@@ -5,7 +5,7 @@ export default function Blogs(props) {
   return (
     <div className='blog-card flex-box justify-center align-center'>
       <div className="image flex-box justify-center align-center">
-        <img src={props.src} alt="blog image" />
+        <img src={props.src} alt="blog image" loading='lazy' className='lazy-img'/>
         <div className="rating-blog">
           <h1>{props.date}</h1>
         </div>

@@ -9,8 +9,8 @@ export default function CartPage(props) {
   return (
     <>
     <TopBanner title="#cart" subtitle="Add your coupon code and SAVE upto 70%!" type="about" />
-    <CartItemsTable />
-    <CartCheckOut />
+    <CartItemsTable cart={props.cart} removeItemFromCart={props.removeItemFromCart}/>
+    <CartCheckOut cart={props.cart}/>
     </>
   )
 }

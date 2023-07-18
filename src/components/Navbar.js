@@ -9,7 +9,7 @@ export default function Navbar(props) {
         <div id="main-nav" className="flex-box justify-center align-center">
         <div className="nav-bar flex-box align-center">
             <div className="logo">
-                <img src={logo} alt="cara" />
+                <img src={logo} alt="cara"/>
             </div>
             <div className="options flex-box justify-center align-center">
                 <ul className="nav-options flex-box justify-center align-center ">
